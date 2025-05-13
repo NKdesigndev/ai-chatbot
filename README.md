@@ -52,28 +52,3 @@ To add more terms and vocabulary to the bot, modify the `intents.json` file and 
 2. Run `python train.py` to train and compile the model. This will generate the `chatbot_model.h5` file.
 3. Once the model is trained, run `python app.py` to start the Flask application.
 4. The app will be accessible at `http://127.0.0.1:5000/` locally. You can now interact with the chatbot via the API.
-
-<!-- Actual text -->
-## Find me on
-[![Twitter][1.2]][1]  [![LinkedIn][2.2]][2]
-
-<!-- Icons -->
-
-[1.2]: http://i.imgur.com/wWzX9uB.png (Twitter)
-[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn)
-
-<!-- Links to my social media accounts -->
-[1]: https://twitter.com/dennisjmaina
-[2]: https://www.linkedin.com/in/dennismaina/
-[3]: https://instagram.com/denno.h_
-
-## Having troubles implementing?
- > Reach out to me maina@dentricedev.com 
- I will be happy to assist 
-
-# 
-## Want something improved or added?
-  > Fork the repo @ [GitHub](https://github.com/mainadennis/An-AI-Chatbot-in-Python-and-Flask).
-# 
-## Regards,
- > [DentriceDev Solutions](https://dentricedev.com).
