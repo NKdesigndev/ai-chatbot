@@ -1,0 +1,47 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+# Ignore the virtual environment directory
+venv/
+.venv/
+# Ignore specific large files
+venv/Lib/site-packages/clang/native/libclang.dll
+venv/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+
+# Virtual environment directories
+venv/
+env/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secrets (API keys, credentials, etc.)
+*.env
+*.json
+*.yml
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# PyInstaller
+*.spec

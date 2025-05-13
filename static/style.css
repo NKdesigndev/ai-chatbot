@@ -1,0 +1,282 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+    background: #0A1128 !important;
+}
+/* Scrollbar track (background) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scrollbar thumb (draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #034078;
+  border-radius: 2px;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #001F54;
+}
+
+/* Scrollbar track (area behind the thumb) */
+::-webkit-scrollbar-track {
+  background: #0A1128;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ml-auto{
+    margin-left:auto !important;
+}
+.mr-auto{
+    margin-right:auto !important;
+}
+
+.col-md-10,.col-md-8,.col-md-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-8{flex:0 0 66.666667%;max-width:66.666667%}
+.col-md-4{flex:0 0 33.333333%;max-width:33.333333%}
+.col-md-10{flex:0 0 83.333333%;max-width:83.333333%}
+
+form{
+    min-width: 100%;
+    max-width: 100%;
+}
+.form-control {
+    background: no-repeat bottom,50% calc(100% - 1px);
+    background-image: none, none;
+    background-size: auto, auto;
+    background-size: 0 100%,100% 100%;
+    border: 0;
+    height: 36px;
+    transition: background 0s ease-out;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    font-size: 14px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .4375rem 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border:none;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-bottom: 1px solid #d2d2d2;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn {
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .46875rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f08f00;
+    border-color: #c27400;
+}
+.btn.btn-warning:active, .btn.btn-warning:focus, .btn.btn-warning:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 5, 34, 0.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(0, 68, 255, 0.2);
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow:visible;
+}
+#chatbox {
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding: 30px 25px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #001F54;
+    border: 2px solid #034078;
+    outline-offset: 2px;
+      /* border-width: 1px;
+  border-style: outset;
+  border-color: #034078; */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 80%; */
+    margin-top: 60px;
+}
+
+#userInput {
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    /* width: 40%; */
+    margin-top: 45px;
+}
+#userInput #text{
+    border: 1px solid #024078;
+        border-radius: 5px;
+        padding: 28px 15px;
+        /* margin-bottom: 25px; */
+            /* width: 87%; */
+        color: #FEFCFB;
+        background-color: #080d21;
+        outline: none;
+}
+#userInput #text:focus{
+    border-color:#1282A2;
+}
+#userInput input::placeholder{
+    color: #1282A2;
+}
+/* #textInput {
+
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 17px;
+} */
+
+.form-control:focus{
+    box-shadow: 0 0 0 0 !important;
+}
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+#userInput #send{
+    min-width: 100px;
+    max-width: 100px;
+    position: absolute;
+    right: 21px;
+    padding: 8px 0;
+    font-weight: 500;
+    margin-left: 20px;
+    background: #1282A2;
+    border-radius: 5px;
+    border: none;
+    color: #FEFCFB;
+}
+.userText {
+    color: #FEFCFB;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right !important;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+.userText span {
+    background-color: #1282A2; /* Bubble background color */
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /* Needed for the arrow positioning */
+    /* display: inline-block; */
+    max-width: 70%; /* Optional: controls the max width of the bubble */
+}
+
+/* Create the arrow at the bottom-right */
+.userText span::after {
+    content: '';
+    position: absolute;
+    right: 10px; /* Adjust this value to move the arrow horizontally */
+    bottom: -10px; /* Adjust this value to move the arrow vertically */
+    width: 0;
+    height: 0;
+    border-right: 0px solid #1282A2; /* Creates the right-pointing arrow */
+    border-top: 10px solid #1282A2; /* Adjust this value for the arrow size */
+    border-left: 10px solid transparent;
+    border-bottom: 0 solid transparent;
+}
+
+
+.botText {
+    left: 0;
+    position: relative;
+    color: #0A1128;
+    /* font-family: monospace; */
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    margin: 15px 0;
+    /* line-height: 30px; */
+    /* margin: 5px; */
+}
+.main-hdr{
+    margin-top: 40px;
+    color: #FEFCFB;
+}
+.main-hdr span{
+    font-size: 1.5rem;
+    color: #1282A2;
+}
+.botText span {
+    background-color: #FEFCFB; /* Bubble background color */
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /* Needed for the arrow positioning */
+    display: inline-block;
+    max-width: 70%; /* Optional: controls the max width of the bubble */
+}
+
+/* Create the arrow at the bottom-left */
+.botText span::after {
+    content: '';
+    position: absolute;
+    left: 10px; /* Adjust this value to move the arrow horizontally */
+    bottom: -10px; /* Adjust this value to move the arrow vertically */
+    width: 0;
+    height: 0;
+    border-left: 0px solid #FEFCFB; /* Creates the left-pointing arrow */
+    border-top: 10px solid #FEFCFB; /* Adjust this value for the arrow size */
+    border-right: 10px solid transparent;
+    border-bottom: 0 solid transparent;
+}
+
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
