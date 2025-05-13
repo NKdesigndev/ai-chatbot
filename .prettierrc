@@ -1,0 +1,15 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 180,
+  "htmlWhitespaceSensitivity": "strict",
+  "endOfLine": "lf",
+  "pythonVersion": "3.9",
+  "cssEnable": ["css", "scss", "less", "postcss"],
+  "javascript": {
+    "parser": "babel"
+  }
+}
